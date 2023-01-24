@@ -9,7 +9,7 @@ pipeline {
 
     stage('Check node') {
       steps {
-        sh 'node --version'
+        sh 'ls -la'
       }
     }
 
